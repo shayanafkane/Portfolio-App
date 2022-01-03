@@ -6,7 +6,7 @@ function Header() {
     const { colorMode } = useColorMode();
     const isDark = colorMode === "dark";
 
-    const [isNotSmallerScreen] = useMediaQuery("(min-width:768px)");
+    const [isNotSmallerScreen] = useMediaQuery("(min-width:991px)");
 
 
     return (

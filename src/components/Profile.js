@@ -3,11 +3,11 @@ import React from 'react';
 import { DiAndroid, DiCodeigniter, DiWebplatform } from 'react-icons/di';
 function Profile() {
 
-    const [isNotSmallerScreen] = useMediaQuery("(min-width:768px)");
+    const [isNotSmallerScreen] = useMediaQuery("(min-width:991px)");
 
 
     return (
-        <Flex direction={isNotSmallerScreen ? "row" : "column"} w="100%" maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}>
+        <Flex direction={isNotSmallerScreen ? "row" : "column"} justify="center" w="100%" maxWidth={{ base: "100%", md: "100%", lg: "100%", xl: "100%" }}>
             <Box alignSelf="center" px="32" py="16">
                 <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
                     7+
